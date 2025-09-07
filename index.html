@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parallax</title>
+    <link rel="stylesheet" href="src/output.css">
+    <script src="script.js"></script>
+</head>
+<body class="h-[2000px] m-0">
+        <div id="home" >
+           
+        <!-- navbar -->
+        <nav class="nav bg-transparent p-1.5">
+            <div class="nav-center ">
+                <div class="flex text-white items-center justify-between text-4xl mx-2 md:p-0">
+                    PARALLAX
+                    <button class="nav-toggle size-6 bg-transparent border border-transparent transition-all cursor-pointer md:hidden ">
+                        <div class="hamburger absolute z-20 top-2">
+                            <span class="hamburger-top"></span>
+                            <span class="hamburger-middle"></span>
+                            <span class="hamburger-bottom"></span>
+                        </div>
+                   </button>
+                </div>
+                <!-- links -->
+                 <div class="links-cont h-0 overflow-hidden transition-all duration-300 md:h-auto">
+                    <ul class="links md:flex">
+                        <li>
+                            <a href="index.html" class="">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="scroll-link">About</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="scroll-link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#tours" class="scroll-link">Tours</a>
+                        </li>
+                    </ul>
+                 </div>
+            </div>
+        </nav>
+        <div class=" flex relative justify-center place-items-center">
+            <a href="">
+                <img src="src/satellite.png" alt="" class="make-invisible flex absolute h-[150px] w-[200px] top-[100px] left-[400px] z-100 cursor-pointer ">
+            </a>
+            <a href="https://github.com/hrithik406">
+            <img src="src/spaceship1.png" alt="" class=" make-invisible flex absolute h-[80px] rotate-25 w-[70px] top-[335px] right-[500px] z-100 cursor-pointer ">
+            </a>
+            <img id="img" src="src/moon.png" alt="" class="flex absolute  h-[1200px] w-[2000px] top-[300px] items-center">
+            <img src="src/earth1.png" alt="" class="flex absolute  h-[1200px] w-[3000px] top-[1100px] items-center">
+        </div>
+         
+         
+        <!-- banner -->
+         <div class="banner min-h-[100vh] grid justify-center text-center mt-[400px]">
+            <div class="conta make-invisible z-100">
+                <h1 class="text-white text-4xl font-bold py-3">PARALLAX PROJECT</h1>
+                <p class="text-white max-w-[25rem] my-auto mb-5 md:min-w-[40rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae minima iure omnis quisquam recusandae sapiente tempore veniam blanditiis aliquam amet assumenda provident nesciunt, mollitia culpa dolorum nisi in? Provident, nemo!</p>
+            </div>
+         </div>
+    </div>
+</body>
+</html>
